@@ -12,7 +12,7 @@ This is a Proposed Conceptual Structure For Dashboard Project
 
 ## Dev Tools
 
-[Biome](https://biomejs.dev/): All in one replacement for EsLint/Prettier (Suggested; We need to discuss this further)
+[Biome](https://biomejs.dev/): All in one replacement for eslint/prettier (Suggested; We need to discuss this further)
 
 [Husky](https://typicode.github.io/husky/): Git hooks
 
@@ -21,6 +21,8 @@ This is a Proposed Conceptual Structure For Dashboard Project
 [antd](https://ant.design/): Raw component library
 
 [React router](https://reactrouter.com/home): Routing and navigation
+
+[Vitest](https://vitest.dev/): Testing library along with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 
 [Jotai/Zustand](https://docs.pmnd.rs/): State Management (Both are fine, We need to discuss this further)
 
