@@ -1,5 +1,13 @@
+import { TestButton } from "@web-components/TestButton"
+
 function App() {
-  return <p>A Proposed Conceptual Structure For Dashboard Project</p>;
+  return (
+    <div>
+      <p>A Proposed Conceptual Structure For Dashboard Project</p>
+      <p>Here is a button from @web-components package!</p>
+      <TestButton />
+    </div>
+  );
 }
 
 export default App;
