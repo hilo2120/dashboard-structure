@@ -1,4 +1,4 @@
-import { TestButton } from "@web-components/TestButton"
+import { TestButton } from "@components/TestButton";
 
 function App() {
   return (

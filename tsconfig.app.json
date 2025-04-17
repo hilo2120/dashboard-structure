@@ -12,7 +12,7 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@web-components/*": [
+      "@components/*": [
         "./packages/components/*"
       ],
       "@icons/*": [
