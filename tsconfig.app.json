@@ -23,6 +23,9 @@
       ],
       "@utils/*": [
         "./packages/utils/*"
+      ],
+      "@config": [
+        "./packages/config/*"
       ]
     },
     /* Bundler mode */
