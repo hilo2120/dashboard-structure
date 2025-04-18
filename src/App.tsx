@@ -1,4 +1,4 @@
-import { TestButton } from "@components/TestButton";
+import { TestButton } from "@components"
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <p>Here is a button from @web-components package!</p>
       <TestButton />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
