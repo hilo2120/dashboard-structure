@@ -1,0 +1,15 @@
+{
+	"files": {
+		"include": ["src/**/*", "packages/**/*"],
+		"ignore": ["dist"]
+	},
+	"formatter": {
+		"lineEnding": "crlf",
+		"indentStyle": "space"
+	},
+	"javascript": {
+		"formatter": {
+			"semicolons": "asNeeded"
+		}
+	}
+}
