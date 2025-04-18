@@ -1,6 +1,6 @@
 # What is this?
 
-This is a Proposed Conceptual Structure For Dashboard Project
+This is a Proposed Conceptual Structure For Dashboard Project.
 
 ## Setup Tools
 
