@@ -9,7 +9,13 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "pull-deps:components": "git subtree pull --prefix packages/components/ https://repo-path.git main",
+    "pull-deps:apis": "git subtree pull --prefix packages/apis/ https://repo-path.git main",
+    "pull-deps:config": "git subtree pull --prefix packages/config/ https://repo-path.git main",
+    "pull-deps:icons": "git subtree pull --prefix packages/icons/ https://repo-path.git main",
+    "pull-deps:utils": "git subtree pull --prefix packages/utils/ https://repo-path.git main",
+    "pull-deps:all": "run-p pull-deps:*"
   },
   "dependencies": {
     "react": "^19.1.0",
