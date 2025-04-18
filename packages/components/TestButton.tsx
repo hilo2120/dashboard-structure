@@ -1,5 +1,5 @@
 const TestButton: React.FC = () => {
-  return <button type='button'>button</button>;
-};
+  return <button type="button">button</button>
+}
 
-export { TestButton };
+export { TestButton }
