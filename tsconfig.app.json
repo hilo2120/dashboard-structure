@@ -12,6 +12,9 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@components": [
+        "./packages/components"
+      ],
       "@components/*": [
         "./packages/components/*"
       ],
