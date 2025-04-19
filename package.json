@@ -6,7 +6,7 @@
   "author": "hilo2120",
   "type": "module",
   "scripts": {
-    "p":"cross-env NODE_OPTIONS='--import tsx' plop --plopfile=plopfile.ts",
+    "p": "plop",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
