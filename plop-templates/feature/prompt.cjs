@@ -1,4 +1,5 @@
 const toUpperCase = str => str.charAt(0).toUpperCase() + str.slice(1);
+const toLowerCase = str => str.charAt(0).toLowerCase() + str.slice(1);
 
 module.exports = {
   description: "Create a new feature!",
@@ -18,7 +19,7 @@ module.exports = {
       actions.push(
         {
           type: "add",
-          path: `./src/features/${name.toLowerCase()}/components/index.ts`,
+          path: `./src/features/${toLowerCase(name)}/components/index.ts`,
           templateFile: "./plop-templates/feature/index.hbs",
           data: {
             name,
@@ -27,7 +28,7 @@ module.exports = {
         },
         {
           type: "add",
-          path: `./src/features/${name.toLowerCase()}/hooks/index.ts`,
+          path: `./src/features/${toLowerCase(name)}/hooks/index.ts`,
           templateFile: "./plop-templates/feature/index.hbs",
           data: {
             name,
@@ -36,7 +37,7 @@ module.exports = {
         },
         {
           type: "add",
-          path: `./src/features/${name.toLowerCase()}/pages/index.ts`,
+          path: `./src/features/${toLowerCase(name)}/pages/index.ts`,
           templateFile: "./plop-templates/feature/index.hbs",
           data: {
             name,
@@ -45,7 +46,7 @@ module.exports = {
         },
         {
           type: "add",
-          path: `./src/features/${name.toLowerCase()}/services/index.ts`,
+          path: `./src/features/${toLowerCase(name)}/services/index.ts`,
           templateFile: "./plop-templates/feature/index.hbs",
           data: {
             name,
@@ -54,7 +55,7 @@ module.exports = {
         },
         {
           type: "add",
-          path: `./src/features/${name.toLowerCase()}/services/hooks/index.ts`,
+          path: `./src/features/${toLowerCase(name)}/services/hooks/index.ts`,
           templateFile: "./plop-templates/feature/index.hbs",
           data: {
             name,
@@ -63,7 +64,7 @@ module.exports = {
         },
         {
           type: "add",
-          path: `./src/features/${name.toLowerCase()}/services/middlewares/request.ts`,
+          path: `./src/features/${toLowerCase(name)}/services/middlewares/request.ts`,
           templateFile: "./plop-templates/feature/index.hbs",
           data: {
             name,
@@ -72,7 +73,7 @@ module.exports = {
         },
         {
           type: "add",
-          path: `./src/features/${name.toLowerCase()}/services/middlewares/response.ts`,
+          path: `./src/features/${toLowerCase(name)}/services/middlewares/response.ts`,
           templateFile: "./plop-templates/feature/index.hbs",
           data: {
             name,
@@ -81,7 +82,7 @@ module.exports = {
         },
         {
           type: "add",
-          path: `./src/features/${name.toLowerCase()}/services/service-calls/queries/index.ts`,
+          path: `./src/features/${toLowerCase(name)}/services/service-calls/queries/index.ts`,
           templateFile: "./plop-templates/feature/index.hbs",
           data: {
             name,
@@ -90,7 +91,7 @@ module.exports = {
         },
         {
           type: "add",
-          path: `./src/features/${name.toLowerCase()}/services/service-calls/mutations/index.ts`,
+          path: `./src/features/${toLowerCase(name)}/services/service-calls/mutations/index.ts`,
           templateFile: "./plop-templates/feature/index.hbs",
           data: {
             name,
@@ -99,7 +100,7 @@ module.exports = {
         },
         {
           type: "add",
-          path: `./src/features/${name.toLowerCase()}/states/index.ts`,
+          path: `./src/features/${toLowerCase(name)}/states/index.ts`,
           templateFile: "./plop-templates/feature/index.hbs",
           data: {
             name,
@@ -108,7 +109,7 @@ module.exports = {
         },
         {
           type: "add",
-          path: `./src/features/${name.toLowerCase()}/types/index.types.ts`,
+          path: `./src/features/${toLowerCase(name)}/types/index.types.ts`,
           templateFile: "./plop-templates/feature/index.hbs",
           data: {
             name,
@@ -117,7 +118,7 @@ module.exports = {
         },
         {
           type: "add",
-          path: `./src/features/${name.toLowerCase()}/utils/consts/index.ts`,
+          path: `./src/features/${toLowerCase(name)}/utils/consts/index.ts`,
           templateFile: "./plop-templates/feature/index.hbs",
           data: {
             name,
@@ -126,7 +127,7 @@ module.exports = {
         },
         {
           type: "add",
-          path: `./src/features/${name.toLowerCase()}/utils/custom-hooks/index.ts`,
+          path: `./src/features/${toLowerCase(name)}/utils/custom-hooks/index.ts`,
           templateFile: "./plop-templates/feature/index.hbs",
           data: {
             name,
@@ -135,7 +136,7 @@ module.exports = {
         },
         {
           type: "add",
-          path: `./src/features/${name.toLowerCase()}/utils/helper-functions/index.ts`,
+          path: `./src/features/${toLowerCase(name)}/utils/helper-functions/index.ts`,
           templateFile: "./plop-templates/feature/index.hbs",
           data: {
             name,
