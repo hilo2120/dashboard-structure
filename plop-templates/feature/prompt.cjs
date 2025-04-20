@@ -127,15 +127,6 @@ module.exports = {
         },
         {
           type: "add",
-          path: `./src/features/${toLowerCase(name)}/utils/custom-hooks/index.ts`,
-          templateFile: "./plop-templates/feature/index.hbs",
-          data: {
-            name,
-            upperFirstName,
-          },
-        },
-        {
-          type: "add",
           path: `./src/features/${toLowerCase(name)}/utils/helper-functions/index.ts`,
           templateFile: "./plop-templates/feature/index.hbs",
           data: {
