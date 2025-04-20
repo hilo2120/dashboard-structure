@@ -16,7 +16,7 @@ module.exports = {
     if (name) {
       actions.push({
         type: "add",
-        path: `./src/shared/utils/custom-hooks/${toLowerCase(name)}.ts`,
+        path: `./src/shared/hooks/${toLowerCase(name)}.ts`,
         templateFile: "./plop-templates/hook/index.hbs",
         data: {
           name,
