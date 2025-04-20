@@ -1,3 +1,5 @@
+const toLowerCase = str => str.charAt(0).toLowerCase() + str.slice(1);
+
 module.exports = {
   description: "Create a new hook!",
   prompts: [
@@ -14,7 +16,7 @@ module.exports = {
     if (name) {
       actions.push({
         type: "add",
-        path: `./src/shared/utils/custom-hooks/${name.toLowerCase()}.ts`,
+        path: `./src/shared/utils/custom-hooks/${toLowerCase(name)}.ts`,
         templateFile: "./plop-templates/hook/index.hbs",
         data: {
           name,
